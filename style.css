@@ -1,0 +1,161 @@
+/* MAIN */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.headerLogo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.headerLogoText {
+    color:white;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    margin-left: 5px;
+}
+
+
+.headerBackground {
+    background: linear-gradient(to right, #D52047CC, #EE3D1BCC);
+    height: 782px;
+}
+
+.headerContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.navElement {
+    color:white;
+    text-transform: uppercase;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+.navElement:last-child {
+    margin-right: 0;
+}
+
+.navElement:hover {
+    color:#f55849;
+}
+
+.headerInner {
+    background-image: url(./image/header_bg.jpg);
+    height: 782px;
+    background-size: cover;
+}
+
+.headerAuthBtn {
+    color:white;
+    text-transform: uppercase; 
+    background:none; 
+    border: 2px solid white;
+    padding: 10px 30px;
+    border-radius: 6px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.headerAuthBtn:hover {
+    color: #f55849;
+    border: 2px solid #f55849;
+}
+
+/* INTRO */
+
+.intro {
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.introTitle {
+    text-transform: uppercase;
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    letter-spacing: 4px;
+}
+
+.introText {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-bottom: 40px;
+}
+
+.introBtn {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    width: 160px;
+    height: 50px;
+    background-color: white;
+    color: #ED4C5C;
+    border: none;
+    border-radius: 6px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.introBtn:hover {
+    background-color: #f55849;
+    color: white;
+}
+
+/* FOOTER */
+
+footer {
+    height: 245px;
+}
+
+.footerContent {
+    font-family: 'Lato', sans-serif;
+    width: 175px;
+    padding-top: 45px;
+    margin-bottom: 45px;
+}
+
+.footerAddressTitle {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footerAddressText {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+
+.footerCopyright {
+    font-size: 12px;
+    font-weight: 400;
+}
