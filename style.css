@@ -130,6 +130,49 @@ a {
     color: white;
 }
 
+/* SECTION_APP */
+
+.appContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 105px;
+    padding-bottom: 95px;
+}
+
+.appContentLeft {
+    width: 445px;
+    height: 263px;
+}
+
+.appContentImage {
+    border-radius: 15px;
+}
+
+.appContentTitle {
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.appContentText {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 19px;
+}
+
+.appContentMore {
+    color: #ED4C5C;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* TIPS */
+
+.tips {
+    background-color: #ED4C5C;
+}
+
 /* FOOTER */
 
 footer {
