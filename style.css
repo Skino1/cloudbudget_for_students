@@ -173,6 +173,45 @@ a {
     background-color: #ED4C5C;
 }
 
+.tipsContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 105px;
+    padding-bottom: 95px;
+}
+
+.tipsContentLeft {
+    width: 445px;
+    height: 263px;
+}
+
+.tipsContentImage {
+    border-radius: 15px;
+}
+
+.tipsContentTitle {
+    color: white;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.tipsContentText {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 19px;
+}
+
+.tipsContentDownload {
+    margin-top: 40px;
+}
+
+.tipsContentGooglePlay {
+    margin-right: 23px;
+}
+
 /* FOOTER */
 
 footer {
